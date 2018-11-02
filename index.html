@@ -2,119 +2,45 @@
 <html>
 
 <head>
-    <title>Андрей Кобылин | Web Developer</title>
-    <meta name="charset" content="utf-8">
+    <title>Andrew Kobylin | Web Developer</title>
+    <meta charset="utf-8">
     <meta name="description" content="Личный сайт Андрея Кобылина. Тут мои достижения и навыки." />
     <meta name="keywords" content="andrew kobylin, андрей кобылин, web developer, teaching kids, games, computer science, веб разработчик" />
 
     <style>
-        html {
-            height: 100%;
-        }
+
         body {
             font-family: monospace;
-            font-size: 1.5rem;
-            font-weight: 600;
-            height: 100%;
-            background-image: radial-gradient(circle at 50% 30%, white 0, black 80%);
-            padding: 0;
-            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 20px;
         }
-
-        h1,
-        h2 {
-            color: #453E66;
-        }
-
-        h1 {
-            font-size: 5rem;
-        }
-
-        h2 {
-            font-size: 3rem;
-        }
-
-        .title-name {
-            margin-bottom: 0;
-            margin-top: 0;
-        }
-
-        .title-position {
-            margin-top: 0;
-        }
-
         a,
         a:visited {
             color: black;
         }
 
         a:hover {
-            color: white;
+            color: blue;
         }
 
-        .skills {
-            color: #29423b;
-            cursor: default;
-        }
-
-        .skills ul {
-            text-align: left;
-        }
-
-        .home-container {
-            width: 900px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .contacts {
-            /*color: white;*/
-        }
-
-         ::selection {
-            background: #F84AA7;
-            /* WebKit/Blink Browsers */
-        }
-
-         ::-moz-selection {
-            background: #F7A9A8;
-            /* Gecko Browsers */
-        }
-
-        .skill-letter:hover {
-            color: red;
-        }
-
-        .home-row {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-
-        .home-row>* {
-            padding: 0 20px;
-        }
-
-        .work-duration {
-            margin: 0;
-        }
     </style>
 </head>
 
 <body>
     <div class="home-container">
 
-        <h1 class="title-name">Андрей Кобылин</h1>
+        <h1 class="title-name">Andrew Kobylin</h1>
         <h2 class="title-position">Web Developer</h2>
         <h3>"Trying to finish my tasks.."</h3>
 
-        <h4 class="work-duration">Рабочий стаж 6 лет</h4>
+        <h4 class="work-duration">Work in programming since 2010</h4>
         <div class="home-row">
             <div class="skills">
-                <h3>Умения:</h3>
+                <h3>Skills:</h3>
                 <ul>
-                    <li>JavaScript(ES6,7), Angular, BEM</li>
-                    <li>CSS, LESS</li>
+                    <li>JavaScript(ES6,7), React, Angular</li>
+                    <li>CSS, LESS, BEM</li>
                     <li>NodeJS, ExpressJS</li>
                     <li>npm, gulp, grunt</li>
                     <li>PHP, Wordpress</li>
@@ -122,33 +48,44 @@
                 </ul>
             </div>
             <div class="projects">
-                <h3>Проекты:</h3>
+                <h3>Public Projects:</h3>
                 <ul>
                     <li><a href="http://soloma.libraries.kiev.ua/" target="_blank">Сайт Библиотек</a></li>
+                    <li><a href="http://kobylin.github.io/single-cell-automata/" target="_blank">Single Cellular Automaton</a></li>
+                </ul>
+                <h3>Companies:</h3>
+                <ul>
+                    <li>Beetroot</li>
+                    <li>Luxoft</li>
+                    <li>WTMG</li>
+                    <li>Innovecs</li>
+                    <li>Oberig</li>
+                </ul>
+                <h3>Volunteering:</h3>
+                <ul>
+                    <li><a href="http://codeclub.com.ua" target="_blank">CodeClub</a></li>
+                    <li><a href="https://coderdojo.com/" target="_blank">CodeDojo</a></li>
                 </ul>
             </div>
         </div>
 
 
         <div class="contacts">
-            <div>Контакты:</div>
-            <div>
-                <a href="mailto:kobylin.a.a@gmail.com">Письмом (kobylin.a.a@gmail.com)</a>
-                <br/>
-                <a href="https://www.facebook.com/andrew.kobylin" target="_blank">На фейсбуке</a>
-            </div>
+            <h3>Contacts:</h3>
+            <ul>
+                <li>
+                    <a href="mailto:kobylin.a.a@gmail.com">kobylin.a.a@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/andrew.kobylin" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://github.com/kobylin/" target="_blank">GitHub</a>
+                </li>
+            </ul>
         </div>
     </div>
 </body>
-<script type="text/javascript">
-    Array.prototype.forEach.call(document.querySelectorAll('.skills li'), function(elem) {
-        var delim = ', ';
-        var r = elem.innerHTML.split(delim).map(function(token) {
-            return '<span class="skill-letter">' + token + '</span>';
-        });
-        elem.innerHTML = r.join(delim);
-    });
-</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110289543-1"></script>
 <script>
