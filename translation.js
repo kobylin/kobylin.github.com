@@ -12,7 +12,7 @@
       Contacts: "Контакты"
     },
     ua: {
-      "Andrew Kobylin": "Андрій Кобылин",
+      "Andrew Kobylin": "Андрій Кобилін",
       "Web Developer": "Веб розробник",
       '"Trying to finish my tasks.."': '"Намагаюсь закінчити те що почав..."',
       "Work in programming since 2010": "Працюю программістом з 2010",
